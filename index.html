@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Egem Tadilat ve Dekorasyon</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/default.css" rel="stylesheet" />
+
+    <script src="/assets/plugin/fancyBox/lib/jquery-1.10.1.min.js"></script>
+     <script src="/assets/js/bootstrap.min.js"></script>
+
+
+    <!-- Add jQuery library -->
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/assets/plugin/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="/assets/plugin/fancyBox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/plugin/fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="/assets/plugin/fancyBox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/plugin/fancyBox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/assets/plugin/fancyBox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="/assets/plugin/fancyBox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/plugin/fancyBox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+</head>
+<body>
+    <form id="form1" runat="server">       
+            <div id="main">
+
+                <div id="header">
+                    <div class="header-main">
+                        <a title="Egem Tadilat" href="/" id="header-logo"></a>
+                        <div id="bH">
+                            <div id="hP2">
+                                <div class="f20" id="pRS">Tadilat & Dekorasyon</div>
+                            </div>
+                            <div id="hP">
+                                <div class="f20" id="pO"><span>0544</span>902 27 63</div>
+                                <div class="f20" id="pF"><span>0505</span>298 25 89</div>
+                            </div>
+                            <a href="#popup" class="popup">
+                                <button type="button" class="btn btn-primary">Nasıl Hizmet Veriyoruz?</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper content">
+                    <div class="column-24">
+                        <div class="popular">
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Ev Tadilat Dekorasyon</div>
+                                <div class="image ic-mimar"></div>
+                            </div>
+
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Ofis Tadilat Dekorasyon</div>
+                                <div class="image ev-tadilat"></div>
+                            </div>
+
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Banyo Tadilat</div>
+                                <div class="image banyo-tadilat"></div>
+                            </div>
+
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Mutfak Tadilat</div>
+                                <div class="image mutfak-tadilat"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Boya Badana</div>
+                                <div class="image boyaci"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Fayans Döşeme</div>
+                                <div class="image fayans-doseme"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Parke Döşeme</div>
+                                <div class="image parke-doseme"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">PVC Pencere Kapı</div>
+                                <div class="image pvc-pencere-kapi"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Elektrik & Elektronik</div>
+                                <div class="image marangoz"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Katlanır Cam Balkon</div>
+                                <div class="image cam-balkon"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Çatı Yapımı ve Tadilat</div>
+                                <div class="image cati-yapimi"></div>
+                            </div>
+                            
+                            <div onclick="window.location = '/'" class="popular-pod">
+                                <div class="name">Mantolama</div>
+                                <div class="image mantolama"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="footer">
+                            <p>
+                                &copy; <%= DateTime.Now.Year %> Egem Tadilat & Dekorasyon, Tüm Hakları Saklıdır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".popup").fancybox({
+                        maxWidth: 600,
+                        maxHeight: 400,
+                        fitToView: false,
+                        width: '70%',
+                        height: '70%',
+                        autoSize: false,
+                        closeClick: false,
+                        openEffect: 'none',
+                        closeEffect: 'none'
+                    });
+                });
+            </script>
+            <div id="popup" style="display: none;">
+                <h2>Nasıl Hizmet Veriyoruz.</h2>
+                <p>
+                    Tüm tadilat ve dekorasyon işleriniz için ücretsiz keşif yapılır. 
+                </p>
+                <p>
+                    İstanbul ve Bursa Merkezli olup çevre illere de hizmet vermekteyiz.
+                </p>
+                <p> Referanslarımız yakında siteye eklenecektir.</p>
+            </div>       
+    </form>
+</body>
+</html>

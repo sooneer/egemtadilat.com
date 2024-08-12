@@ -1,0 +1,200 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input { margin: 0px; padding: 0px; text-decoration: none; list-style: none; outline: none; border: none; font-size: 8pt; line-height: 15px; }
+
+body { background-color: #f8f8f8; max-width: 1500px; font-family: Segoe UI, Arial, Helvetica !important; margin: 0 auto; zoom: 100%; }
+
+#header { background: url('../img/h.png') center center no-repeat; height: 120px; width: 100%; position: relative; z-index: 1000; }
+
+.header-main { margin: 0 auto; width: 960px; height: 100%; position: relative; }
+
+#header-logo { position: absolute; bottom: 13px; background-image: url('../img/logo.png'); background-position: center center; background-repeat: no-repeat; width: 258px; height: 120px; }
+
+#bH { float: right; margin-top: 30px; position: relative; }
+
+    #bH button { margin-left: 7px; }
+
+#hP { width: 182px; display: inline-block; margin-top: -15px; }
+
+#hP2 { width: 420px; display: inline-block; margin-top: -15px; }
+
+#main { position: relative; overflow: hidden; background-size: 100% !important; }
+
+#pR { font-size: 16px; color: #0791e9; font-weight: bold; font-style: italic; vertical-align: middle; display: inline-block; width: auto; padding-left: 30px; background: url('../img/phone.png') center left no-repeat; line-height: 26px; height: 26px; }
+
+#pRS { font-size: 30px !important; color: #0791e9; font-weight: bold; font-style: italic; vertical-align: middle; display: inline-block; width: auto; padding-left: 30px; line-height: 26px; height: 40px; }
+
+#pO { font-size: 16px; color: #0791e9; font-weight: bold; font-style: italic; vertical-align: middle; display: inline-block; width: auto; padding-left: 30px; background: url('../img/office.png') center left no-repeat; line-height: 26px; height: 26px; }
+
+#pF { font-size: 16px; color: #0791e9; font-weight: bold; font-style: italic; vertical-align: middle; display: inline-block; width: auto; padding-left: 30px; background: url('../img/fax.png') center left no-repeat; line-height: 26px; height: 26px; }
+
+    #pR span, #pO span, #pF span { color: #666666; font-size: 12px; font-style: italic; font-weight: bold; margin-right: 4px; }
+
+.wrapper.content { margin: 0px auto; }
+.wrapper { margin: 0 auto; max-width: 960px; position: relative; }
+
+.column-24 { display: inline; float: left; width: 950px; margin: 0 5px; }
+#popup h2 {font-size:22px; text-align:center; margin:10px 0 20px;}
+#popup p {font-family: Century Gothic,Trebuchet MS,"HelveticaNeue-Bold","HelveticaNeue",Helvetica,Arial,sans-serif; 
+           font-size: 18px;
+    line-height: 230%;}
+ 
+.footer { border-top: 1px solid #d2d2d2; }
+    .footer p { font-size: 14px; font-weight: 500; margin: 10px 0; color: #a8a8a8; font-family: Century Gothic,Trebuchet MS,"HelveticaNeue-Bold","HelveticaNeue",Helvetica,Arial,sans-serif; }
+.popular { margin-top: 0px; *zoom: 1; font-family: Century Gothic,Trebuchet MS,"HelveticaNeue-Bold","HelveticaNeue",Helvetica,Arial,sans-serif; font-size: 14px; }
+
+    .popular:before, .popular:after { content: ""; display: table; }
+
+    .popular:after { clear: both; }
+
+    .popular h1 { font-weight: 200; margin-bottom: 10px; }
+
+    .popular:nth-child(6) { margin-right: 0; }
+
+    .popular .popular-pod { float: left; margin: 0 1.5% 1.5% 0; width: 23.875%; border: 1px solid #d2d2d2; background: #fff; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; box-shadow: 0 1px 2px #d2d2d2; cursor: pointer; position: relative; text-align: center; transition: all .33s; -o-transition: all .33s; -webkit-transition: all .33s; -moz-transition: all .33s; -ms-transition: all .33s; -webkit-transition-delay: .1s; -moz-transition-delay: .1s; -ms-transition-delay: .1s; -o-transition-delay: .1s; transition-delay: .1s; height: 152px; }
+
+.ie7 .popular .popular-pod, .ie8 .popular .popular-pod { width: 23.5%; }
+
+.popular .popular-pod:nth-child( 4n) { margin-right: 0; }
+
+.popular .popular-pod .name { height: 32px; line-height: 32px; text-align: center; color: rgb(15,153,213); font-size: 14px; }
+
+.popular .popular-pod .image { height: 118px; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-top: 1px solid #d2d2d2; border-radius: 0 0 2px 2px; -webkit-border-radius: 0 0 2px 2px; -moz-border-radius: 0 0 2px 2px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; transition: all .33s; -o-transition: all .33s; -webkit-transition: all .33s; -moz-transition: all .33s; -ms-transition: all .33s; -webkit-transition-delay: .1s; -moz-transition-delay: .1s; -ms-transition-delay: .1s; -o-transition-delay: .1s; transition-delay: .1s; }
+
+    .popular .popular-pod .image.ic-mimar { background-image: url('../img/grup/0100-ic-mimar-cover.jpg'); }
+    .popular .popular-pod .image.ev-tadilat { background-image: url('../img/grup/2045-ev-tadilat-cover.jpg'); }
+    .popular .popular-pod .image.mutfak-tadilat { background-image: url('../img/grup/0656-mutfak-tadilat-cover.jpg'); }
+    .popular .popular-pod .image.banyo-tadilat { background-image: url('../img/grup/0552-banyo-tadilat-cover.jpg'); }
+    .popular .popular-pod .image.boyaci { background-image: url('../img/grup/0032-boyaci-cover.jpg'); }
+    .popular .popular-pod .image.parke-doseme { background-image: url('../img/grup/0258-parke-doseme-cover.jpg'); }
+    .popular .popular-pod .image.fayans-doseme { background-image: url('../img/grup/0266-fayans-doseme-cover.jpg'); }
+    .popular .popular-pod .image.pvc-pencere-kapi { background-image: url('../img/grup/0756-pvc-pencere-kapi-cover.jpg'); }
+    .popular .popular-pod .image.marangoz { background-image: url('../img/grup/0128-marangoz-cover.jpg'); }
+    .popular .popular-pod .image.cati-yapimi { background-image: url('../img/grup/0208-cati-yapimi-tadilati-cover.jpg'); }
+    .popular .popular-pod .image.cam-balkon { background-image: url('../img/grup/0262-cam-balkon-cover.jpg'); }
+    .popular .popular-pod .image.mantolama { background-image: url('../img/grup/0252-mantolama-cover.jpg'); }
+
+
+
+    .popular .popular-pod .image.house-cleaning { background-image: url('../img/grup/house-cleaning.jpg'); }
+
+    .popular .popular-pod .image.lawn-mowing-and-lawncare { background-image: url('../img/grup/lawn-mowing-and-lawncare-cover.jpg'); }
+
+    .popular .popular-pod .image.handyman { background-image: url('../img/grup/handyman-cover.jpg'); }
+
+    .popular .popular-pod .image.general-contracting { background-image: url('../img/grup/general-contracting-cover.jpg'); }
+
+    .popular .popular-pod .image.landscaping { background-image: url('../img/grup/landscaping-cover.jpg'); }
+
+    .popular .popular-pod .image.carpet-cleaning { background-image: url('../img/grup/carpet-cleaning-cover.jpg'); }
+
+    .popular .popular-pod .image.power-washing { background-image: url('../img/grup/power-washing-cover.jpg'); }
+
+    .popular .popular-pod .image.electrical { background-image: url('../img/grup/electrician-cover.jpg'); }
+
+
+    .popular .popular-pod .image.singing-lessons { background-image: url('/media/primo/lessons/singing-lessons.jpg'); }
+
+    .popular .popular-pod .image.piano-lessons { background-image: url('/media/primo/lessons/piano-lessons.jpg'); }
+
+    .popular .popular-pod .image.martial-arts-training { background-image: url('/media/primo/lessons/martial-arts-training.jpg'); }
+
+    .popular .popular-pod .image.language-lessons { background-image: url('/media/primo/lessons/language-lessons.jpg'); }
+
+    .popular .popular-pod .image.reading-and-writing-tutoring { background-image: url('/media/primo/lessons/reading-and-writing-tutoring.jpg'); }
+
+    .popular .popular-pod .image.math-tutoring { background-image: url('/media/primo/lessons/math-tutoring.jpg'); }
+
+    .popular .popular-pod .image.personal-training { background-image: url('/media/primo/lessons/personal-training.jpg'); }
+
+    .popular .popular-pod .image.yoga-lessons { background-image: url('/media/primo/lessons/yoga-lessons.jpg'); }
+
+    .popular .popular-pod .image.dance-lessons { background-image: url('/media/primo/lessons/dance-lessons.jpg'); }
+
+    .popular .popular-pod .image.drawing-lessons { background-image: url('/media/primo/lessons/drawing-lessons.jpg'); }
+
+    .popular .popular-pod .image.acting-lessons { background-image: url('/media/primo/lessons/acting-lessons.jpg'); }
+
+    .popular .popular-pod .image.cpr-training { background-image: url('/media/primo/lessons/cpr-training.jpg'); }
+
+    .popular .popular-pod .image.tennis-instruction { background-image: url('/media/primo/lessons/tennis-instruction.jpg'); }
+
+    .popular .popular-pod .image.dj { background-image: url('/media/primo/events/dj.jpg'); }
+
+    .popular .popular-pod .image.wedding-officiant { background-image: url('/media/primo/events/wedding-officiant.jpg'); }
+
+    .popular .popular-pod .image.catering { background-image: url('/media/primo/events/catering.jpg'); }
+
+    .popular .popular-pod .image.event-makeup { background-image: url('/media/primo/events/event-makeup.jpg'); }
+
+    .popular .popular-pod .image.photo-booth-rental { background-image: url('/media/primo/events/photo-booth.jpg'); }
+
+    .popular .popular-pod .image.bartending { background-image: url('/media/primo/events/bartender.jpg'); }
+
+    .popular .popular-pod .image.wedding-florist { background-image: url('/media/primo/events/wedding-florist.jpg'); }
+
+    .popular .popular-pod .image.magician { background-image: url('/media/primo/events/magician.jpg'); }
+
+    .popular .popular-pod .image.event-photography { background-image: url('/media/primo/events/event-photography.jpg'); }
+
+    .popular .popular-pod .image.face-painting { background-image: url('/media/primo/events/face-painting.jpg'); }
+
+    .popular .popular-pod .image.event-hair-styling { background-image: url('/media/primo/events/event-hair-styling.jpg'); }
+
+    .popular .popular-pod .image.party-rental-supplies { background-image: url('/media/primo/events/party-rental.jpg'); }
+
+    .popular .popular-pod .image.massage-therapy { background-image: url('/media/primo/wellness/massage-therapy.jpg'); }
+
+    .popular .popular-pod .image.personal-chef-services { background-image: url('/media/primo/wellness/personal-chef.jpg'); }
+
+    .popular .popular-pod .image.life-coaching { background-image: url('/media/primo/wellness/life-coach.jpg'); }
+
+    .popular .popular-pod .image.pilates-training { background-image: url('/media/primo/wellness/pilates.jpg'); }
+
+    .popular .popular-pod .image.nutritionist { background-image: url('/media/primo/wellness/nutritionist.jpg'); }
+
+    .popular .popular-pod .image.cycling-training { background-image: url('/media/primo/wellness/cycling-training.jpg'); }
+
+    .popular .popular-pod .image.tai-chi-lessons { background-image: url('/media/primo/wellness/tai-chi-lessons.jpg'); }
+
+    .popular .popular-pod .image.physical-therapy { background-image: url('/media/primo/wellness/physical-therapy.jpg'); }
+
+    .popular .popular-pod .image.marriage-counseling { background-image: url('/media/primo/wellness/marriage-counseling.jpg'); }
+
+    .popular .popular-pod .image.swimming-lessons { background-image: url('/media/primo/wellness/swimming-lessons.jpg'); }
+
+.popular .popular-pod .bttn { position: relative; top: -80px; padding: 9px 20px; font-size: 18px; filter: alpha(opacity=0); -khtml-opacity: 0; -moz-opacity: 0; opacity: 0; margin-top: -5px; transition: all .33s; -o-transition: all .33s; -webkit-transition: all .33s; -moz-transition: all .33s; -ms-transition: all .33s; -webkit-transition-delay: .1s; -moz-transition-delay: .1s; -ms-transition-delay: .1s; -o-transition-delay: .1s; transition-delay: .1s; }
+
+.ie7 .popular .popular-pod .bttn { line-height: 18px; padding: 7px 20px; }
+
+.popular .popular-pod:hover { -webkit-box-shadow: 0 1px 2px 2px #9fc8f8; -moz-box-shadow: 0 1px 2px 2px #9fc8f8; box-shadow: 0 1px 2px 2px #9fc8f8; border-color: rgb(15,153,213); }
+
+    .popular .popular-pod:hover .name { color: rgb(15,153,213); }
+
+    .popular .popular-pod:hover .image { border-color: rgb(15,153,213); }
+
+    .popular .popular-pod:hover .bttn { filter: alpha(opacity=100); -khtml-opacity: 1; -moz-opacity: 1; opacity: 1; margin-top: 0; }
+
+.popular .popular-pod .bttn.blue:active { border: 1px solid #0e5fbd; background: -webkit-gradient(linear, left top, left bottom, from(#1172e3), to(#1172e3)); background: -webkit-linear-gradient(top, #1172e3, #1172e3); background: -moz-linear-gradient(top, #1172e3, #1172e3); background: -ms-linear-gradient(top, #1172e3, #1172e3); background: -o-linear-gradient(top, #1172e3, #1172e3); background: linear-gradient(left, #1172e3, #1172e3); background-color: #1172e3; -webkit-box-shadow: inset 0 1px 2px #0e5fbd; -moz-box-shadow: inset 0 1px 2px #0e5fbd; box-shadow: inset 0 1px 2px #0e5fbd; }
+
+.popular .popular-pod .bttn.orange:active { border: 1px solid rgb(200,20,0); background: -webkit-gradient(linear, left top, left bottom, from(rgb(200,20,0)), to(rgb(200,20,0))); background: -webkit-linear-gradient(top, rgb(200,20,0), rgb(200,20,0)); background: -moz-linear-gradient(top, rgb(200,20,0), rgb(200,20,0)); background: -ms-linear-gradient(top, rgb(200,20,0), rgb(200,20,0)); background: -o-linear-gradient(top, rgb(200,20,0), rgb(200,20,0)); background: linear-gradient(left, rgb(200,20,0), rgb(200,20,0)); background-color: rgb(200,20,0); -webkit-box-shadow: inset 0 1px 2px rgb(200,20,0); -moz-box-shadow: inset 0 1px 2px rgb(200,20,0); box-shadow: inset 0 1px 2px rgb(200,20,0); }
+
+@media only screen and (max-width:730px) {
+    .popular .popular-pod { float: left; margin: 0 1.5% 1.5% 0; width: 49.25%; }
+
+    .ie7 .popular .popular-pod, .ie8 .popular .popular-pod { width: 48.5%; }
+
+    .popular .popular-pod:nth-child( 2n+1) { margin-right: 0; }
+}
+
+@media only screen and (max-width: 34.285714285714285em),only handheld and (max-device-width: 34.285714285714285em) {
+    .popular { background: #fff; }
+
+        .popular h1 { margin-bottom: 10px; }
+
+        .popular .popular-pod { float: left; margin: 0 1.5% 1.5% 0; width: 100%; margin-bottom: 10px; }
+
+    .ie7 .popular .popular-pod, .ie8 .popular .popular-pod { width: 98.5%; }
+
+    .popular .popular-pod:nth-child( 1n+1) { margin-right: 0; }
+
+    .popular .service { font-size: 18.2px; }
+}
